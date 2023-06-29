@@ -11,7 +11,7 @@ import SwiftUI
 struct SayiTahminOyunuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Anasayfa()
         }
     }
 }

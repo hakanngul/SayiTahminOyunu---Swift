@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		AEB092E82A4CFB5E0077D675 /* SayiTahminOyunuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB092E72A4CFB5E0077D675 /* SayiTahminOyunuApp.swift */; };
-		AEB092EA2A4CFB5E0077D675 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB092E92A4CFB5E0077D675 /* ContentView.swift */; };
+		AEB092EA2A4CFB5E0077D675 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB092E92A4CFB5E0077D675 /* Anasayfa.swift */; };
 		AEB092EC2A4CFB610077D675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB092EB2A4CFB610077D675 /* Assets.xcassets */; };
 		AEB092EF2A4CFB610077D675 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB092EE2A4CFB610077D675 /* Preview Assets.xcassets */; };
+		AEB092F62A4CFBF50077D675 /* TahminEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB092F52A4CFBF50077D675 /* TahminEkrani.swift */; };
+		AEB092F82A4CFBFF0077D675 /* SonucEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB092F72A4CFBFF0077D675 /* SonucEkrani.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEB092E42A4CFB5E0077D675 /* SayiTahminOyunu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayiTahminOyunu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB092E72A4CFB5E0077D675 /* SayiTahminOyunuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayiTahminOyunuApp.swift; sourceTree = "<group>"; };
-		AEB092E92A4CFB5E0077D675 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEB092E92A4CFB5E0077D675 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		AEB092EB2A4CFB610077D675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB092EE2A4CFB610077D675 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEB092F52A4CFBF50077D675 /* TahminEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahminEkrani.swift; sourceTree = "<group>"; };
+		AEB092F72A4CFBFF0077D675 /* SonucEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkrani.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				AEB092E72A4CFB5E0077D675 /* SayiTahminOyunuApp.swift */,
-				AEB092E92A4CFB5E0077D675 /* ContentView.swift */,
+				AEB092E92A4CFB5E0077D675 /* Anasayfa.swift */,
+				AEB092F52A4CFBF50077D675 /* TahminEkrani.swift */,
+				AEB092F72A4CFBFF0077D675 /* SonucEkrani.swift */,
 				AEB092EB2A4CFB610077D675 /* Assets.xcassets */,
 				AEB092ED2A4CFB610077D675 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB092EA2A4CFB5E0077D675 /* ContentView.swift in Sources */,
+				AEB092F62A4CFBF50077D675 /* TahminEkrani.swift in Sources */,
+				AEB092EA2A4CFB5E0077D675 /* Anasayfa.swift in Sources */,
+				AEB092F82A4CFBFF0077D675 /* SonucEkrani.swift in Sources */,
 				AEB092E82A4CFB5E0077D675 /* SayiTahminOyunuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
